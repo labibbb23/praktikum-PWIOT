@@ -1,0 +1,98 @@
+CSS
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(tanaman\ simbol.png);
+    background-size: cover;
+    background-color: black;
+}
+header{
+    background: black;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+nav{
+    background: rgb(51,51,51,0.8);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    margin:0 15px;
+} 
+.content{
+    background:rgba(166,184,165,0.8);
+    margin-top: 10px;
+    border-radius: 20px;
+    color:#fff;
+    margin-top: 10px;
+    text-align: center;
+    visibility: visible;
+}
+.footer{
+    text-align: center;
+    padding: 10px;
+    background: rgba(83,79,79,0.8);
+    color: #fff;
+    margin-top: 10px;
+}
+
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Monitoring</title>
+    <link rel="stylesheet" href="modul2.css">
+</head>
+<body>
+    <header><h12><strong>Monitoring Tanaman</strong></h12></header>
+    <nav>
+        <a href="#Deskripsi">Deskripsi Alat</a>
+        <a href="#Monitoring Alat">Monitoring Alat</a>
+        <a href="#Kontak Kami">Kontak Kami</a>
+    </nav>
+    <div class="container">
+ <section id="Deskripsi" class="content">
+    <h2>Deskripsi Alat</h2>
+    <p><strong>Nama Alat</strong>Sensor Suhu dan Tekanan
+    </p>
+    <p><strong>Spesifikasi:</strong>Sensor Suhu dan Tekanan
+    </p>
+    <p><strong>Pembuat:</strong>M. Labib
+    </p>
+</section>
+<section id="Monitoring Alat" class="content">
+    <h2>Monitoring Alat</h2>
+    <p><strong>Kelembapan Tanah:</strong>--%
+    </p>
+    <p><strong>Kelembapan Udara:</strong>--%
+    </p>
+    <p><strong>Tekanan Udara:</strong>--mmHg
+    </p>
+    <p><strong>Suhu:</strong>--C
+    </p>
+</section>
+<section id="Kontak Kami" class="content">
+    <h2>Kontak Kami</h2>
+    <p><strong>Email:</strong>mufrih.123490028@student.itera.ac.id
+    </p>
+    <p><strong>No Telp:</strong>0812 3456 7890
+    </p>
+    <p><strong>Pembuat:</strong>M. Labib
+    </p>
+</section>
+    </div>
+</body>
+</html>
